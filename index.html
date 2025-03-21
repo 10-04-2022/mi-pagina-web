@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Camisetas Personalizadas</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2196F3;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+        .cart {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #f9f9f9;
+            border: 2px solid #4CAF50;
+            border-radius: 12px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-bottom: 2px solid #4CAF50;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Venta de Camisetas Personalizadas</h1>
+        <p>¡Crea tu estilo único con nuestras camisetas personalizadas!</p>
+        <div class="cart">
+            <h2>🛒 Cesta</h2>
+            <p>0 artículos - 0,00 €</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="1.jpg" alt="Camiseta personalizada 1">
+            <h3>Camiseta Logo Clásico</h3>
+            <p>Desde 15,00 €</p>
+            <button class="btn">Comprar Ahora</button>
+        </div>
+        <div class="card">
+            <img src="2.webp" alt="Camiseta personalizada 2">
+            <h3>Camiseta Estilo Vintage</h3>
+            <p>Desde 18,00 €</p>
+            <button class="btn">Comprar Ahora</button>
+        </div>
+        <div class="card">
+            <img src="3.webp" alt="Camiseta personalizada 3">
+            <h3>Camiseta con Texto Personalizado</h3>
+            <p>Desde 20,00 €</p>
+            <button class="btn">Comprar Ahora</button>
+        </div>
+    </div>
+</body>
+</html>
